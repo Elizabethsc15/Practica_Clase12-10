@@ -1,0 +1,24 @@
+body{
+    background: rgb(234, 235, 238);
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(42, 165, 48);
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.divsform{
+    padding-top: 20px;
+}
+
+.calcuop{
+    padding-left: 650px;
+    padding-top: 20px;
+}
+
