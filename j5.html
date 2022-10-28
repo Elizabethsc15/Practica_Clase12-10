@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="j5.css">
+    <meta name="author" content="KARLA SALAZAR">
+
+</head>
+<body>
+  <h1> + - CALCULADORA BASICA * /</h1>
+  <p>Pagina Web para la realizacon de operaciones basicas</p>
+    <div class="contenedor">
+      <div class="calcuop">
+        <div class="divsform">
+          <label for="numero">Ingrese numero 1</label>
+          <input type="text" name="numero" id="numero">
+        </div>
+        <div class="divsform">
+          <label for="numero2">Ingrese numero 2</label>
+          <input type="text" name="numero2" id="numero2">
+        </div>
+        <div class="divsform">
+          <label for="Operacion">SELECCIONA OPERACION</label>
+          <select name="Operacion" id="Operacion" form="Operacion"> 
+            <option value="+">+</option>
+            <option value="*">*</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+          </select>
+        </div>
+        <div class="divsform">
+          <label for="Resultado">Resultado</label>
+          <input type="text" name="Resultado" id="Resultado" readonly>
+        </div>
+        <div class="divsform">
+          <button onclick="calcular()">Realizar Operacion</button>
+        </div>
+      </div>
+    </div>
+      <script src="j5.js"></script>
+</body>
+</html>
